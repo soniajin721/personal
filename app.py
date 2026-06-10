@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide"
 )
 
-ASSET_DIR = Path("assets")
+ASSET_DIR = Path(".")
 
 
 def image_to_base64(path):
